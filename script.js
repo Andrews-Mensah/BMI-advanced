@@ -18,7 +18,7 @@ bodyMI.addEventListener ('click', () => {
     }
 
     if (BMIvalue >= 18.5 && BMIvalue <= 24.9) {
-        result.value = ("Your BMI is" +" "+ BMIvalue + ", so you are normal") 
+        result.value = ("Your BMI is" +" "+ BMIvalue + ", so you have a normal weight") 
     }
 
     if (BMIvalue >= 25 && BMIvalue <= 29.9) {
