@@ -3,8 +3,8 @@ const bodyMI = document.getElementById("btn")
 bodyMI.addEventListener ('click', () => {
     let weight = document.getElementById ("weight").value;
     let height = document.getElementById ("height").value;
-    let BMIvalue = (weight/(Math.pow(height,2)))
-    BMIvalue = Math.floor (BMIvalue);
+    let BMIvalue = (weight/(height * height))
+    BMIvalue = Math.floor(BMIvalue);
 
 
     let fResult = document.getElementById ("result");
