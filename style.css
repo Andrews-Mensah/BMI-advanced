@@ -13,10 +13,14 @@
 }
 
 .container {
-    background-color: rgb(96, 158, 213);
+    background-color: white;
+    opacity: 0.9;
     width: 35vw;
-    height: 35vh;
-    margin: 20px 450px;
+    height: 45vh;
+    margin: 10px 450px;
+    border: 2px solid black;
+    box-shadow: 0 10px rgba(0,0,0,1)
+    
     
 }
 
@@ -30,9 +34,11 @@ input[type=text] {
 }
 
 input[type=text]:last-child {
-    padding: 15px;
+    font-size: 18px;
+    padding: 30px;
     opacity: 0.8;
     outline: none;
+    border-radius: 15px;
     border-bottom: 1px solid black
     
 }
@@ -41,6 +47,7 @@ input[type=number] {
         width: 30vw;
         padding: 12px 20px;
         display: block;
+        border-radius: 5px;
         box-sizing: border-box;
         text-align: center;
         margin: 20px auto;
@@ -71,15 +78,6 @@ button {
 }
 
 button:hover {
-    background: white;
+    background: rgb(187, 185, 203);
     color: black;
-}
-
-.footer {
-    background:rgb(96, 158, 213)
-}
-
-.footer img {
-    height: 300px;
-    width: 500px;
 }
