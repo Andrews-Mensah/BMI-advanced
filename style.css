@@ -80,7 +80,7 @@ button {
     margin: 2rem;
     display: block;
     align-content: center;
-    width: 370px;
+    width: 80%;
 }
 
 button:hover {
@@ -116,9 +116,6 @@ button:hover {
 
     }
 
-    button {
-        width: 100px;
-    }
 
 }
 
